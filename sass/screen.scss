@@ -219,3 +219,30 @@ header{
     margin-right: 42px;
   }
 }
+.products {
+  max-width: 1200px;
+  padding: 100px 0;
+  margin: 0 auto;
+h2 {
+  font-family: "Oswald";
+  text-align: center;
+}
+div {
+  border: 2px solid grey;
+}
+img{
+  width: 75px;
+  display: block;
+}
+div:nth-of-type(odd) {
+  font-family: "Lobster" !important;
+  font-size: 20px;
+  float: left;
+  height: 150pxpx;
+}
+div:nth-of-type(even) {
+  font-family: "Lobster" !important;
+  font-size: 20px;
+  float: right;
+}
+}

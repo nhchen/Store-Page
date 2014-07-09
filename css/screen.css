@@ -246,3 +246,31 @@ a {
     margin-right: 42px;
   }
 }
+.products {
+  max-width: 1200px;
+  padding: 100px 0;
+  margin: 0 auto;
+}
+.products h2 {
+  font-family: "Oswald";
+  text-align: center;
+}
+.products div {
+  border: 2px solid grey;
+}
+.products img {
+  width: 75px;
+  display: block;
+}
+.products div:nth-of-type(odd) {
+  font-family: "Lobster" !important;
+  font-size: 20px;
+  float: left;
+  height: 185px;
+}
+.products div:nth-of-type(even) {
+  font-family: "Lobster" !important;
+  font-size: 20px;
+  float: right;
+  height: 185px;
+}
