@@ -12,7 +12,22 @@ header{
   left: 0;
   background: $color3;
   z-index: 20;
+
+ 
 }
+ span{
+  width: 10%;
+    display: inline-block;
+    float: right;
+    } 
+.header{
+  width: 88%;
+}
+
+  i{
+  margin: 8px;
+  }
+
 
  .headline{
 
@@ -69,7 +84,7 @@ header{
       font-family: $font1;
       font-family: $font1;
       font-size: 24px;
-      margin: 1% 2%;
+      margin: 1% 1.7%;
 
       &:hover{
         font-color: $color2;
@@ -82,7 +97,7 @@ header{
       font-family: $font1;
       font-size: 28px;
       color: $color2;
-      margin: 1% 2%;
+      margin: 1% 1%;
       font-weight: bold;
     }
     }
