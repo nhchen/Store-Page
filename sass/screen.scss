@@ -12,14 +12,8 @@ header{
   left: 0;
   background: $color3;
   z-index: 20;
-
- 
 }
- span{
-  width: 10%;
-    display: inline-block;
-    float: right;
-    } 
+ 
 .header{
   width: 88%;
 }
@@ -145,9 +139,50 @@ header{
           border-radius: 50%;
         }
   }
+.prodimg{
+  display:block;
+  height:120px;
+}
 
-@media screen and (max-width: 1330px)
-{
+.prodsec{
+  padding: 10px !important;
+}
+
+.pure-control-group{
+  width: 100%;
+  margin: 20px 0;
+}
+
+.products{
+    height: 300px !important;
+    position: relative;
+}
+
+.center{
+  width: 200px;
+  margin: 20px auto;
+}
+
+.choice{
+  border: 2px solid black;
+  padding: 2px;
+  &:hover{
+    background-color: $color3;
+    border-radius: 10px;
+  }
+}
+
+*:checked{
+  width: 75px !important;
+  background-color: $color2;
+  border-radius: 10px;
+}
+.hide{
+  display:none !important;
+}
+
+
+@media screen and (max-width: 1330px){
   .headlinetext{
     max-height: 28%;
 
@@ -223,6 +258,7 @@ header{
   max-width: 1200px;
   padding: 100px 0;
   margin: 0 auto;
+
 h2 {
   font-family: "Oswald";
   text-align: center;
@@ -230,15 +266,11 @@ h2 {
 div {
   border: 2px solid grey;
 }
-img{
-  width: 75px;
-  display: block;
-}
 div:nth-of-type(odd) {
   font-family: "Lobster" !important;
   font-size: 20px;
   float: left;
-  height: 150pxpx;
+  height: 224px;
 }
 div:nth-of-type(even) {
   font-family: "Lobster" !important;

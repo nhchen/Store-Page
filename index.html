@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/screen.css" media="all">
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Roboto+Condensed|Roboto|Oswald|Lobster' rel='stylesheet' type='text/css'>
 </head>
 
@@ -18,13 +17,6 @@
             <div class="pure-u-1-6"><a href="#prod">Products</a></div>
             <div class="pure-u-1-6"><a href="#cont">Contact</a></div>
         </div>
-             <span class="fa-stack fa-lg social">
-    
-             <i class="fa fa-twitter fa-stack-1x twit"></i>
-
-             <i class="fa fa-facebook-square fa stack-1x fc"></i>
-             </span>
-             
     </header>
 
     <section class="headline pure-g">
@@ -61,29 +53,86 @@
     <section class="products" id="prod">
         <h2 class="pure-u-1-1">Products</h2>
 
-        <div class="prodA pure-u-1-4">
+        <div class="prodA pure-u-1-4 prodsecm">
         Soursop Juice
-        <img src="http://www.do2learn.com/picturecards/images/imageschedule/juicebox_l.gif">
+        <img src="http://www.do2learn.com/picturecards/images/imageschedule/juicebox_l.gif" class="prodimg">
        Our famous 100% Soursop Juice is here to order!
         </div>
 
-        <div class="prodB pure-u-1-4">
+        <div class="prodB pure-u-1-4 prodsecm">
         Soursop Soaps
-        <img src="http://www.saigoncosmetics-export.com/getattachment/10d63f1b-1d6f-44da-8d27-3d75035bd46c/Fresh-Soap-N7.aspx?width=1202&height=1646">
+        <img src="http://www.saigoncosmetics-export.com/getattachment/10d63f1b-1d6f-44da-8d27-3d75035bd46c/Fresh-Soap-N7.aspx?width=1202&height=1646" class="prodimg">
         We produce our soaps with years of experience and some of the most exquisite sources of Soursop known to man.
         </div>
 
-        <div class="prodC pure-u-1-4">
+        <div class="prodC pure-u-1-4 prodsecm">
         Soursop Lotions
-        <img src="http://www.bathandbodyworks.com/graphics/product_images/pBBW1-10388219enh-z8.jpg">
+        <img src="http://www.bathandbodyworks.com/graphics/product_images/pBBW1-10388219enh-z8.jpg" class="prodimg">
         We make our lotions with ingredients capable of making your skin moist.
         </div>
 
-        <div class="prodD pure-u-1-4">
+        <div class="prodD pure-u-1-4 prodsecm">
         Soursop Films
-        <img src="http://reelrecoveryfilmfestival.org/wp-content/uploads/2013/06/film-reel.jpg">
+        <img src="http://reelrecoveryfilmfestival.org/wp-content/uploads/2013/06/film-reel.jpg" class="prodimg">
         All of your favorite Soursop films are available to order from our website. Come and enjoy the classics one more time.
         </div>
     </section>
+
+    <section class="form" id="">
+       
+    <form class="pure-form-aligned">
+     <fieldset>
+        <h2 class="center">Contact</h2>
+        <div class="pure-control-group">
+            <label for="name" class="pure-u-1-4">Name</label>
+            <input class="pure-u-3-4" id="name" type="text" placeholder="ie John The Dude">
+        </div>
+
+        <div class="pure-control-group">
+
+            <label for="prodchoice" class="pure-u-1-4">Choices</label>
+
+            <label class="backdisp" for="option-one" class="pure-checkbox ">
+        <input class="hide" id="option-one" type="checkbox" value="">
+        <span class="choice">Product 1</span>
+         </label> 
+
+          <label class="backdisp" for="option-two" class="pure-checkbox ">
+        <input class="hide" id="option-two" type="checkbox" value="">
+        <span class="choice">Product 2</span>
+         </label> 
+
+          <label class="backdisp" for="option-three" class="pure-checkbox">
+        <input  class="hide" id="option-three" type="checkbox" value="">
+       <span class="choice"> Product 3</span>
+         </label> 
+
+         <label class="backdisp" for="option-four" class="pure-checkbox ">
+        <input class="hide" id="option-four" type="checkbox" value="">
+        <span class="choice">Product 4</span>
+         </label>  
+
+        </div>
+
+        <div class="pure-control-group">
+            <label for="email" class="pure-u-1-4">Currency</label>
+            <input  id="email" type="email" placeholder="Email Address">
+        </div>
+
+        <div class="pure-control-group">
+            <label for="foo" class="pure-u-1-4">Payment Type</label>
+            <input id="foo" type="text" placeholder="Enter something here...">
+        </div>
+
+        <div class="pure-controls">
+            <label for="cb" class="pure-checkbox">
+                <input id="cb" type="checkbox"> I've read the terms and conditions
+            </label>
+
+            <button type="submit" class="pure-button pure-button-primary">Submit</button>
+        </div>
+    </fieldset>
+</section>
+</form>
 </body>
 </html>
