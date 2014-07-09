@@ -136,7 +136,6 @@ a {
 }
 
 .testimonials {
-  position: absolute;
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
@@ -145,7 +144,7 @@ a {
   font-family: "Oswald";
 }
 .testimonials .pure-u-1-2 {
-  height: 150px;
+  height: 125px;
   padding: 10px;
 }
 .testimonials div {
@@ -224,34 +223,30 @@ a {
   }
 }
 .products {
-  top: 325px;
-  position: relative;
-  text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-.products h2 {
-  font-family: "Oswald";
-}
-.products{
   max-width: 1200px;
   padding: 100px 0;
   margin: 0 auto;
 }
+.products h2 {
+  font-family: "Oswald";
+  text-align: center;
+}
 .products div {
   border: 2px solid grey;
 }
-.products img{
+.products img {
   width: 75px;
+  display: block;
 }
 .products div:nth-of-type(odd) {
   font-family: "Lobster" !important;
   font-size: 20px;
   float: left;
+  height: 185px;
 }
 .products div:nth-of-type(even) {
   font-family: "Lobster" !important;
   font-size: 20px;
   float: right;
+  height: 185px;
 }
-
