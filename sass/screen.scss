@@ -172,13 +172,34 @@ header{
   }
 }
 
+.payment{
+  margin-left: 49px ;
+  padding-top: 10px;
+}
+
 *:checked{
   width: 75px !important;
-  background-color: $color2;
+  background-color: $color2 !important;
   border-radius: 10px;
 }
+
 .hide{
   display:none !important;
+}
+
+.pure-button-primary{
+  margin-top: 20px !important;
+  margin-left: 100px !important;
+}
+
+.bigtext{
+  padding-bottom: 5em;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.request{
+  margin-left: 60px !important;
 }
 
 

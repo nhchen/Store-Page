@@ -114,20 +114,44 @@
 
         </div>
 
-        <div class="pure-control-group">
-            <label for="email" class="pure-u-1-4">Currency</label>
-            <input  id="email" type="email" placeholder="Email Address">
+         <div class="pure-control-group">
+
+            <label for="prodchoice" class="pure-u-1-3">Currency</label>
+
+            <label class="backdisp" for="option-one" class="pure-checkbox ">
+        <input class="hide" id="option-one" type="checkbox" value="">
+        <span class="choice">$USD</span>
+         </label> 
+
+          <label class="backdisp" for="option-two" class="pure-checkbox ">
+        <input class="hide" id="option-two" type="checkbox" value="">
+        <span class="choice">&pound; GBP</span>
+         </label> 
+
+          <label class="backdisp" for="option-three" class="pure-checkbox">
+        <input  class="hide" id="option-three" type="checkbox" value="">
+       <span class="choice"> &euro; EURO</span>
+         </label>  
+
+        </div>
+    
+        <div class="payment">
+        <label for="prodchoice" class="pure-u-1-3 payment">Payment Method</label>
+        <form action="">
+
+        <select name="cars">
+        <option value="paypal">Paypal</option>
+        <option value="Chase">Chase</option>
+        <option value="American Express">American Express</option>
+        <option value="Other">Other</option>
+        </select>
+        </form>
         </div>
 
         <div class="pure-control-group">
-            <label for="foo" class="pure-u-1-4">Payment Type</label>
-            <input id="foo" type="text" placeholder="Enter something here...">
+            <label for="name" class="pure-u-1-4 request">Special Requests</label>
+            <input class="pure-u-3-4 bigtext" padding: 10px id="name" type="text" placeholder="ie gift wrapping, seperate deliveries">
         </div>
-
-        <div class="pure-controls">
-            <label for="cb" class="pure-checkbox">
-                <input id="cb" type="checkbox"> I've read the terms and conditions
-            </label>
 
             <button type="submit" class="pure-button pure-button-primary">Submit</button>
         </div>
